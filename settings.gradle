@@ -1,7 +1,7 @@
-include 'line-bot-api-client'
-include 'line-bot-model'
-include 'line-bot-servlet'
-include 'line-bot-spring-boot'
+//include 'line-bot-api-client'
+//include 'line-bot-model'
+//include 'line-bot-servlet'
+//include 'line-bot-spring-boot'
 
 /*
  * Copyright 2016 LINE Corporation
@@ -20,6 +20,6 @@ include 'line-bot-spring-boot'
  */
 
 // samples
-include 'sample-spring-boot-kitchensink'
+//include 'sample-spring-boot-kitchensink'
 include 'sample-spring-boot-echo'
 
