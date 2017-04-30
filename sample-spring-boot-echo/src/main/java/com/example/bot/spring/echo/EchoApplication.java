@@ -36,7 +36,7 @@ public class EchoApplication {
     @EventMapping
     public TextMessage handleTextMessageEvent(MessageEvent<TextMessageContent> event) {
         System.out.println("event: " + event);
-        return new TextMessage(event.getMessage().getText());
+        
         {
   "type": "template",
   "altText": "this is a buttons template",
@@ -64,6 +64,7 @@ public class EchoApplication {
       ]
   }
 }
+        return new TextMessage(event.getMessage().getText());
     }
 
     @EventMapping
